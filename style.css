@@ -1,0 +1,28 @@
+svg {
+  display: block;
+  margin: 50px auto;
+}
+
+.square:hover rect {
+  fill: black;
+  stroke: red;
+  transition: fill 0.5s ease, stroke 0.5s ease;
+}
+
+.rectangle:hover rect {
+  fill: magenta;
+  stroke: blue;
+  transition: fill 0.5s ease, stroke 0.5s ease;
+}
+
+.circle:hover circle {
+  fill: yellow;
+  stroke: green;
+  transition: fill 0.5s ease, stroke 0.5s ease;
+}
+
+.oval:hover ellipse {
+  fill: pink;
+  stroke: purple;
+  transition: fill 0.5s ease, stroke 0.5s ease;
+}
